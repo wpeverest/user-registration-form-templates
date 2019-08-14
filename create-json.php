@@ -2,6 +2,10 @@
 /**
  * PHP script to create json data for templates.
  */
+
+/**
+ * Dummy data, needs to be replaced.
+ */
 $templates = array(
 	'default'    => array(
 		'title' => 'Default Template',
@@ -11,7 +15,7 @@ $templates = array(
 	'layout-two' => array(
 		'title' => 'Classic Template',
 		'thumb' => 'https://raw.githubusercontent.com/wpeverest/user-registration-form-templates/master/images/default.png',
-		'data'  => ''
+		'data'  => '{"wrapper":{"width":"99","font_family":"Open Sans","background_color":"#e7ebef","background_image":"","background_preset":"default","background_position_x":"left","background_position_y":"top","background_size":"auto","background_repeat":"repeat","background_attachment":"scroll","border_type":"none","border_width":{"top":1,"right":1,"bottom":1,"left":1},"border_color":"#d0d5da","border_radius":{"top":"10","right":"10","bottom":"10","left":"10","unit":"px"},"margin":{"desktop":{"top":"20","right":"0","bottom":"20","left":"0"}},"padding":{"desktop":{"top":"30","right":"20","bottom":"30","left":"20"}}},"field_label":{"font_size":"14","font_color":"#444a50","font_style":{"bold":false,"italic":false,"underline":false,"uppercase":false},"text_alignment":"left","line_height":"1.5","margin":{"desktop":{"top":0,"right":0,"bottom":"8","left":0}},"padding":{"desktop":{"top":0,"right":0,"bottom":0,"left":0}}},"field_description":{"font_size":"10","font_color":"#575757","font_style":{"bold":false,"italic":false,"underline":false,"uppercase":false},"text_alignment":"left","line_height":"1.7","margin":{"desktop":{"top":0,"right":0,"bottom":10,"left":0}},"padding":{"desktop":{"top":0,"right":0,"bottom":0,"left":0}}},"field_styles":{"font_size":"14","font_color":"#444a50","placeholder_font_color":"#afb9bf","font_style":{"bold":false,"italic":false,"underline":false,"uppercase":false},"alignment":"left","border_type":"solid","border_width":{"top":"0","right":"0","bottom":"2","left":"0"},"border_color":"#b3bec9","border_focus_color":"#27b9f7","border_radius":{"top":"0","right":"0","bottom":"0","left":"0","unit":"px"},"background_color":"rgba(255,255,255,0.99)","margin":{"desktop":{"top":0,"right":0,"bottom":10,"left":0}},"padding":{"desktop":{"top":6,"right":12,"bottom":6,"left":12}}},"checkbox_radio_styles":{"font_size":"14","font_color":"#575757","font_style":{"bold":false,"italic":false,"underline":false,"uppercase":false},"alignment":"left","inline_style":"default","style_variation":"default","size":"16","color":"#575757","checked_color":"#575757","margin":{"desktop":{"top":0,"right":0,"bottom":0,"left":0}},"padding":{"desktop":{"top":0,"right":0,"bottom":0,"left":0}}},"section_title":{"font_size":"16","font_color":"#575757","font_style":{"bold":true,"italic":false,"underline":false,"uppercase":false},"text_alignment":"left","line_height":"1.5","margin":{"desktop":{"top":25,"right":0,"bottom":25,"left":0}},"padding":{"desktop":{"top":0,"right":0,"bottom":0,"left":0}}},"button":{"font_size":"14","font_style":{"bold":false,"italic":false,"underline":false,"uppercase":false},"font_color":"#ffffff","hover_font_color":"#ffffff","background_color":"#ea4741","hover_background_color":"#ea0700","alignment":"left","border_type":"none","border_width":{"top":"0","right":"0","bottom":"0","left":"0"},"border_color":"#cccccc","border_hover_color":"#cccccc","border_radius":{"top":"0","right":"0","bottom":"0","left":"0","unit":"px"},"line_height":"1.5","margin":{"desktop":{"top":"0","right":"0","bottom":"0","left":"0"}},"padding":{"desktop":{"top":10,"right":"30","bottom":10,"left":"30"}}}}',
 	),
 );
 
